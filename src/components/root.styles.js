@@ -1,6 +1,6 @@
-import { css } from '@emotion/react'
+import { css } from '@emotion/react';
 
-const shadow = '0px 3px 5px rgb(0 0 0 / 40%)'
+const shadow = '0px 3px 5px rgb(0 0 0 / 40%)';
 
 const root = {
   dropShadow: css`
@@ -9,6 +9,6 @@ const root = {
   boxShadow: css`
     box-shadow: ${shadow};
   `,
-}
+};
 
-export default root
+export default root;

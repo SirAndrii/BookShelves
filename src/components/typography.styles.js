@@ -1,4 +1,4 @@
-import { css } from '@emotion/react'
+import { css } from '@emotion/react';
 
 const typography = {
   h1: css`
@@ -17,6 +17,6 @@ const typography = {
     margin: 40px 10px 20px 10px;
     place-self: stretch;
   `,
-}
+};
 
-export default typography
+export default typography;

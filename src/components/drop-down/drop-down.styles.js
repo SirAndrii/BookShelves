@@ -1,5 +1,5 @@
-import { css } from '@emotion/react'
-import root from './../root.styles'
+import { css } from '@emotion/react';
+import root from './../root.styles';
 
 const styles = {
   iconButton: css`
@@ -18,6 +18,6 @@ const styles = {
       color: red;
     }
   `,
-}
+};
 
-export default styles
+export default styles;

@@ -1,5 +1,5 @@
-import { css } from '@emotion/react'
-import root from './../../root.styles'
+import { css } from '@emotion/react';
+import root from './../../root.styles';
 
 const styles = {
   box: css`
@@ -26,6 +26,6 @@ const styles = {
   bookAuthor: css`
     font-size: 14px;
   `,
-}
+};
 
-export default styles
+export default styles;

@@ -1,26 +1,26 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 
-import { search, update } from '../../API/booksApi'
+import { search, update } from '../../API/booksApi';
 
-import BooksList from '../../components/books-list/books-list'
-import SearchBar from '../../components/searchbar/searchbar'
+import BooksList from '../../components/books-list/books-list';
+import SearchBar from '../../components/searchbar/searchbar';
 
 const SearchPage = () => {
-  const [books, setBooks] = useState([])
+  const [books, setBooks] = useState([]);
 
-  const [searchInput, setSearchInput] = useState('')
+  const [searchInput, setSearchInput] = useState('');
 
   useEffect(() => {
     if (searchInput) {
       search(searchInput).then((books) => {
         if (books.error) {
-          setBooks([])
+          setBooks([]);
         } else {
-          setBooks(books)
+          setBooks(books);
         }
-      })
+      });
     }
-  }, [searchInput])
+  }, [searchInput]);
 
   return (
     <>
@@ -28,6 +28,6 @@ const SearchPage = () => {
 
       {Boolean(books.length) && <BooksList books={books} />}
     </>
-  )
-}
-export default SearchPage
+  );
+};
+export default SearchPage;

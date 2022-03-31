@@ -1,5 +1,5 @@
-import { css } from '@emotion/react'
-import root from './../root.styles.js'
+import { css } from '@emotion/react';
+import root from './../root.styles.js';
 
 const styles = {
   link: css`
@@ -16,6 +16,6 @@ const styles = {
       color: red;
     }
   `,
-}
+};
 
-export default styles
+export default styles;

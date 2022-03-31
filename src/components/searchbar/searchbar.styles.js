@@ -1,5 +1,5 @@
-import { css } from '@emotion/react'
-import root from './../root.styles.js'
+import { css } from '@emotion/react';
+import root from './../root.styles.js';
 
 const styles = {
   box: css`
@@ -17,6 +17,6 @@ const styles = {
     width: 100%;
     height: 100%;
   `,
-}
+};
 
-export default styles
+export default styles;
